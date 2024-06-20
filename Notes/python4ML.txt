@@ -1,0 +1,17 @@
+Packages:
+
+- NumPy - math library
+- SciPy - numerical algorithms that are application specific
+- matplotlib
+ (suggested: Take Data Analysis with Python course)
+
+Libraries
+- pandas - data structures
+- scikit learn - algorithms and tools for machine learning
+
+More about scikit learn:
+- free software machine library
+- Classifation, Regression and Clustering algorithms
+- works with NumPy and SciPy
+- Great documentation
+- Easy to implement
