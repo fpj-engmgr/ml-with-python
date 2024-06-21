@@ -21,3 +21,29 @@ Unsupervised learning
     - Summarization
     - Anomaly detection
 
+Getting data into Python
+
+Two important properties
+1. Format
+2. Path
+
+pandas
+- read_csv example:
+
+import pandas as pandas
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
+df = pd.read_csv(url, header = None)
+- df = data frame
+
+df.head(n) prints first n rows of data frame
+df.tail(n) prints last n rows of data frame
+
+headers = ["symboling", "normalized-losses", "make", "fuel-type", "aspiration", "num-of-doors", "body-style",
+"drive-wheels", "engine-location", "wheel-base", "length", "width", "curb-weight", "engine-type", "num-of-cylinders",
+"engine-size", "fuel-system", "bore", "stroke", "compression-ratio", "horsepower", "peak-rpm", "city-mpg", 
+"highway-mpg", "price"]
+
+ df.columns = headers
+
+- export data to read_csv:
+ df.to_csv(path)
