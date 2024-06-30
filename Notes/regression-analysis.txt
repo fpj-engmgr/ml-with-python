@@ -69,3 +69,22 @@ Accuracy Metrics
 - R^2 = 1 - RSE
 
 Multiple Linear Regression
+- Multiple independent variables to predict
+
+- Independent variables effectiveness on predition 
+- Predict the impact of changes
+
+Find the theta vector
+- Ordinary Least Squares
+  - Minimize the MSE using linear algebra
+  - Time consuming...ok for less than 10K rows
+- Optimization algorithms
+  - Gradient Descent
+    - reduce error iteratively
+    - good for a large dataset
+
+How many independent variables to use...
+- Just the right number
+- Don't overfit, as it loses power of predictions
+- Should independent variables be continuous
+- Linear relationship should exist for each independent variable with the dependent one!

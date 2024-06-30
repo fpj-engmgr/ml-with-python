@@ -33,3 +33,18 @@ df_test = df[['drive-wheels', 'body-style', 'price']]
 df_grp = df_test.groupby(['drive-wheels', 'body-style'], as_index=False).mean()
 # pivot table
 df_pivot = df_grp.pivot(index='drive-wheels', columns='body-style')
+
+Correlation between variables
+- Measures to what extent different variables are interdependent
+
+Pearson CorrelationMeasure the strength of the correlation between two features
+- Correlation coefficient
+    - Close to +1: Large positive relationship
+    - Close to -1: Large negative relationship
+    - Close to 0: No relationship
+- P-value
+  - P-value < 0.001: strong certainty in the result
+  - P-value < 0.05:  moderate certainty in the result
+  - P-value < 0.1:   weak certainty in the result
+  - P-value > 0.1:   No certainty in the result
+  

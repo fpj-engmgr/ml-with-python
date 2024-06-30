@@ -1,0 +1,21 @@
+Target variable is a categorical attrivute.
+
+- e.g. loan default prediction
+- e.g. drug class response is typically multi-class
+
+Algorithms for classification
+- Decision trees
+- Naive Bayes
+- Linear Discriminat Analysis
+- k-Nearest Neighbor
+- Logistic Regression- Neural Networks
+- Support Vector Machines (SVM)
+
+K-Nearest Neighbor
+
+- Classify based on similarity to near neighbors
+
+Building Decision trees
+
+Drug Dataset
+- Select attributes based on 
