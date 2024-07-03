@@ -1,0 +1,13 @@
+Neural Networks
+
+input -> soma -> output
+
+- soma may have hidden layers
+
+1. Forward Propagation
+  - activation function (e.g. Sigmoid function)
+    - should the neuron be activated or not?
+      z = w1 . x1 + b1
+      - w1 = weight
+      - b1 = bias
+    - for a network with 2 neurons, the output of the first neuron is the input of the second neuron
