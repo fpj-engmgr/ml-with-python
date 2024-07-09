@@ -181,6 +181,5 @@ print("\nSVM Metrics: \n", Report)
 Report = pd.DataFrame({'Model':['Linear Regression', 'KNN', 'Decision Tree', 'Logistic Regression', 'SVM'],
                        'Accuracy':[LinearRegression_Accuracy, KNN_Accuracy_Score, Tree_Accuracy_Score, LR_Accuracy_Score, SVM_Accuracy_Score], 
                        'F1':[LinearRegression_F1, KNN_F1_Score, Tree_F1_Score, LR_F1_Score, SVM_F1_Score], 
-                       'Jaccard Index':[LinearRegression_JaccardIndex, KNN_JaccardIndex, Tree_JaccardIndex, LR_JaccardIndex, SVM_JaccardIndex], 
-                       'Log Loss':[0, 0, 0, LR_Log_Loss, 0]})
+                       'Jaccard Index':[LinearRegression_JaccardIndex, KNN_JaccardIndex, Tree_JaccardIndex, LR_JaccardIndex, SVM_JaccardIndex], 'Log Loss':[0, 0, 0, LR_Log_Loss, 0]})
 print("\nAll Models Metrics: \n", Report)
