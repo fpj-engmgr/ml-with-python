@@ -66,3 +66,14 @@ Area Plots
 - Great for comparison
 
 - Using canada immigration dataset
+---
+df_canada
+years=list(range(1980, 2014))
+df_canada.sort_values(['Total'], ascending=False, axis=0, inplace=True)
+df_top5 = df_canada.head()
+df_top5 = df_top5[years].transpose()
+df_top5.plot(kind='area')
+etc
+
+Histograms
+- 
