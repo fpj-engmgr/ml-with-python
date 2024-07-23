@@ -77,3 +77,51 @@ etc
 
 Histograms
 - 
+
+Plotly
+- Interactive, open-source plotting library
+- Over 40 chart types 
+
+Graph objects- low-level interface
+- plotly.graph_objects
+import plotly.graph_objects as go 
+import plotly.express as px
+import numpy as numpy
+
+# set random seed for reproducibility
+np.random.seed(10)
+x = np.arange(12)
+# create random y values
+y = np.random.randint(50, 500, size=12)
+# go is the plotly json object 
+fig = go.Figure(data=go.Scatter(x=x, y=y))
+# update the layout of the figure 
+fig.update_layout(title="Simple Line Plot", xaxis_title='Month',yaxis_title='Sales')
+fig.show()
+# plotly. express...
+fig = px.line(x=x, y=y, title='Simple Line Plot', labels=dict(x='Month',y='Sales'))
+fig.show()
+
+
+Dash 
+- UI python library
+- Dash apps are web servers (aka Insights)
+- Declarative and Reactive
+
+- Core components
+ import dash_core_components as dcc 
+
+- HTML components
+ import dash_html_components as html 
+
+Uses React.js 
+
+Callback functions
+- called automatically by Dash
+
+decorator: @app.callback 
+Two parameters
+- Output 
+  Sets the results returned
+- input
+  Provided to the callback 

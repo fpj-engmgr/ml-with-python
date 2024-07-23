@@ -1,24 +1,25 @@
-Target variable is a categorical attrivute.
+There are lots of challenges in image classification
 
-- e.g. loan default prediction
-- e.g. drug class response is typically multi-class
+Cover
+- k-Nearest Neighbors (KNN)
+- Feature extraction
+- Linear classifiers
 
-Algorithms for classification
-- Decision trees
-- Naive Bayes
-- Linear Discriminat Analysis
-- k-Nearest Neighbor
-- Logistic Regression- Neural Networks
-- Support Vector Machines (SVM)
+KNN:
+- Simple
+- Use the most common and nearest classes to the input
 
-K-Nearest Neighbor
+Image is represented as a vector
 
-- Classify based on similarity to near neighbors
+Training/test set 
+- build a model
+- evaluate
+- when good enough use all data to train the model
 
-Building Decision trees
+Slow and limited in its classification prowess
 
-Drug Dataset
-- Select attributes based on 
+IBM Cloud activation code
+62f3149b5d4d6d221e54c148401d94ba
 
 A Quick Guide to the Confusion Matrix
 
