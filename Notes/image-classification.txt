@@ -43,3 +43,22 @@ True: NO	TN = 30	FP = 30	60
 True: YES	FN = 10	TP = 50	60
  	40	80
 Accuracy is the number the model got right over the total number of predictions. This is (TP+TN)/Total Number of Oredictions.
+
+Logistic Regression Training:
+- Gradient Descent 
+
+Loss: Classifcation Error 
+- correct: 0
+- incorrect: 1
+- cost = sum(loss)
+
+Reduce the cost over iterations...
+
+Cost: Cross entropy
+- loss( wrong answer, probability of the right answer)
+e.g. answer given was cat (wrong) and probablity of being a dog was 92% (high entropy impact)
+
+Gradient is the slope of the cost function 
+- gradient descent is - n x slope(bias parameter)
+  where n is learning Rectangle
+  
