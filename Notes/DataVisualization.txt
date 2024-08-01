@@ -125,3 +125,11 @@ Two parameters
   Sets the results returned
 - input
   Provided to the callback 
+
+  Dash
+  - interface
+    - Data-based?
+
+  Panel
+  - Switching from Jupyter notebooks to stand-alone apps 
+  
