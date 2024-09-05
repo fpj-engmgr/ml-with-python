@@ -85,3 +85,30 @@ for epoch in range(4):
     COST.append(loss.item())
 
 etc.
+
+MLR
+- multiple predictor variables
+- bias
+
+x = 1xD tensor
+w = Dx1 tensor
+- perform dot-product of x and w
+
+from torch.nn import Linear
+torch.manual_seed(1)
+
+model=Linear(in_features=2, out_features=1)
+
+list(model.parameters()) # gives the parameters (slope, offset)
+
+# custom module is a class:
+import torch.nn as nn
+class LR(nn.module):
+    def __init__(self, input_size, output_size):
+        super(LR,self).__init__()
+        self.linear = nn.Linear(input_size, output_size)
+    
+    def forward(self, x):
+        out = self.linear(x)
+        return out
+#
